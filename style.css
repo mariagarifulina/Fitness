@@ -1,0 +1,112 @@
+.menu{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu-item{
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.menu-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.background-image{
+    background-image: url("images/background.jpg");
+    /*height: 900px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 500px 0 0 60px;
+}
+.subtitle{
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    margin: 5px 0 0px 180px;
+}
+.main-page{
+    background: #a2ca28;
+}
+.products-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 60px 120px;
+    margin: 0 0 0 0;
+}
+.products-item-head{
+    color: #ffffff;
+    font-size: 22px;
+    margin: 10px 20px 20px 0;
+}
+.products-item-text{
+    color: #ffffff;
+    font-size: 12px;
+    margin: 10px 20px 20px 0;
+    line-height: 20px;
+    text-decoration: none;
+}
+.red-letters{
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 25px 0 0 0px;
+    text-align: center;
+}
+.green-letters{
+    color: #a2ca28;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0px;
+    text-align: center;
+}
+.white-background{
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    margin: 0 120px 0 120px;
+}
+.corner-words{
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 0 0 0 0;
+    /*color: red;*/
+    font-size: 18px;
+    background-image: url("images/img1.jpg");
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: relative;*/
+    /*bottom: 15px;*/
+    /*right: 15px;*/
+    /*padding: 330px 20px 0 400px;*/
+}
+.inner-white{
+    padding: 10px 10px 40px 10px;
+    width: 30%;
+}
+.watches{
+    background-image: url("images/img2.jpg");
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 10px 40px 10px;
+    /*display: flex;*/
+}
+.green-link{
+	color: #a2ca28;
+	/*text-decoration: none;*/
+}
